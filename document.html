@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+
+	<title>DI</title>
+
+	<link rel="stylesheet" 
+	      href="DIn.css">
+
+	<link rel = "icon" 
+	      href = "C:\Projet\img\logoDI.png" 
+          type = "image/x-icon">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" 
+          href="https://fonts.gstatic.com" crossorigin>
+          
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" 
+          rel="stylesheet">
+   	<link rel="stylesheet"  
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+	<section class="sub3-header">
+		<nav>
+			<a href="index.html"><img src="img\Logo A4.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					          <li><a href="index.html"><i class="fa-solid fa-house"></i>HOME</a></li>
+		                 <li><a href="about.html"><i class="fa-solid fa-user"></i>ABOUT</a> </li>
+		                 <li><a href="#"><i class="fa-solid fa-clone"></i>PRESENTATION</a></li>
+		                 <li><a href="#"><i class="fa-solid fa-box-archive"></i>NIVEAUX</a></li>
+		                 <li><a href="course.html"><i class="fa-solid fa-box-archive"></i>Courses</a></li>
+                     <li><a href="document.html"><i class="fa-solid fa-file"></i>DOCUMENTS</a></li>
+                     <li><a href="#"><i class="fa-solid fa-box-archive"></i>ARCHIVE</a></li>
+                     <li><a href="contact.html"><i class="fa-solid fa-envelope"></i>CONTACT</a></li>
+       	</ul>	
+			</div>
+			    <i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+    <h1>Our Documents</h1>
+	</section>
+
+  <!--------about us content----->
+<section>
+	<div class="comment-box">
+		<h3>Leave a comment</h3>
+		<form class="comment-form">
+			<input type="text" name="" placeholder="Enter Name">
+			<input type="email" name="" placeholder="Enter Email">
+			<textarea rows="5" placeholder="Your Comment"></textarea>
+			<button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+		</form>
+		
+	</div>
+</section>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+<!-----------Footer------------>
+
+<section class="footer">
+	   <h4>About Us</h4>
+	    	<p>Lorem ipsum dolor sit amet, consecteur adipiscing  elit.</p>
+	   <div class="icons">
+	   	   <i class="fa fa-facebook"></i>
+         <i class="fa fa-instagram"></i>
+	   	   <i class="fa fa-linkedin"></i>
+	   	   <i class="fa fa-skype"></i>
+	   	   <i class="fa fa-viber"></i>
+
+	   </div>
+	   <p>Made whith <i class="fa fa-heart-o"></i> by Bentoumi Merieme
+ </p>
+</section>
+
+<!-------------JavaScript for Toggle Menu------------->	
+<script >
+var navLinks = document.getElementById('navLinks');
+  function showMenu() {
+  	navLinks.style.right ="0";
+  }
+  function hideMenu(){
+  	navLinks.style.right="-200px";
+  }
+
+</script>
+</body>
+</html>
